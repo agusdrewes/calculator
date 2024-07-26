@@ -1,0 +1,70 @@
+* {
+	border: 1px solid black;
+	font-size: 60px;
+}
+
+body {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+#calculator {
+	display: flex;
+	flex-direction: column;
+	background-color: blue;
+	width: 500px;
+	height: 800px;
+}
+
+#display {
+	display: flex;
+	flex-direction: row-reverse;
+	background-color: black;
+	color: rgb(0, 255, 0);
+	margin: 16px;
+}
+
+#displayKeysContainer {
+	display: flex;
+	margin: 16px;
+}
+
+#clearKey {
+	flex: 1 0 80%;
+	padding: 20px 5px;
+	font-size: 40px;
+}
+
+#deleteKey {
+	flex: 1 0 20%;
+	font-size: 40px;
+}
+
+#keyboard {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	margin: 16px;
+}
+
+#numpad {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 8;
+}
+
+#operations {
+	display: flex;
+	flex-direction: column-reverse;
+	flex: 2;
+}
+
+.numKey {
+	flex: 1 0 30%;
+}
+
+.operationKey {
+	flex: 1 0 10%;
+	padding: 20px 5px;
+}
